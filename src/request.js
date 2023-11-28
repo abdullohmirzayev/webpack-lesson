@@ -1,5 +1,7 @@
-const getData = (name) => {
+export const getData = (name) => {
   console.log(`Hello ${name}`);
 };
 
-export default getData;
+export const num = () => {
+  console.log("Hello world");
+};

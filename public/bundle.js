@@ -16,7 +16,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request */ \"./src/request.js\");\n\r\n\r\n(0,_request__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"Abdulloh\");\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request */ \"./src/request.js\");\n\r\n\r\n(0,_request__WEBPACK_IMPORTED_MODULE_0__.getData)(\"Abdulloh\");\r\n(0,_request__WEBPACK_IMPORTED_MODULE_0__.num)();\n\n//# sourceURL=webpack://webpack/./src/app.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _req
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = (name) => {\r\n  console.log(`Hello ${name}`);\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\r\n\n\n//# sourceURL=webpack://webpack/./src/request.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getData: () => (/* binding */ getData),\n/* harmony export */   num: () => (/* binding */ num)\n/* harmony export */ });\nconst getData = (name) => {\r\n  console.log(`Hello ${name}`);\r\n};\r\n\r\nconst num = () => {\r\n  console.log(\"Hello world\");\r\n};\r\n\n\n//# sourceURL=webpack://webpack/./src/request.js?");
 
 /***/ })
 

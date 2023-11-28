@@ -1,5 +1,4 @@
-import getData from "./request";
+import { getData, num } from "./request";
 
 getData("Abdulloh");
-
-
+num();
