@@ -6,3 +6,4 @@
 
 // getData("Abdulloh");
 // num();
+console.log('work...');
