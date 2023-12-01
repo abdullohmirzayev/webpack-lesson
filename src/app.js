@@ -1,8 +1,8 @@
-// styles
-import "./css/style.css";
+// // styles
+// import "./css/style.css";
 
-// JavaScript
-import { getData, num } from "./request";
+// // JavaScript
+// import { getData, num } from "./request";
 
-getData("Abdulloh");
-num();
+// getData("Abdulloh");
+// num();
